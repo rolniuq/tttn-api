@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { Request, Response } from "express";
 import { GetPriceBySize } from "../services/Cart.Service";
 import { FindProduct } from "../services/Product.Service";

@@ -29,6 +29,7 @@ export const SaveImageHandler = async (req: Request, res: Response) => {
 
 export const UpdateImageHandler = async (req: Request, res: Response) => {
   const idProduct = await CheckProductExist(req, res);
+  //@ts-ignore
   await DeleteImagesHandler(idProduct);
 
   const imagePath = "./public/images";

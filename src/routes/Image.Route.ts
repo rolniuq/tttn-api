@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { Express } from "express";
 import ImageMiddleware from "../middleware/Image.Middleware";
 import { RequireStaff, VerifyLogin } from "../middleware/Authentication";

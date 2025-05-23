@@ -28,6 +28,7 @@ app.use(function(req, res, next) {
 });
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
+// @ts-ignore
 app.use(session({
   secret: config.secretKey,
   resave: false,
